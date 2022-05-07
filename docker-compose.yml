@@ -1,0 +1,61 @@
+version: "3.3"
+services:
+  apache:
+    container_name: apache1
+    image: aksel67/apache:v1.1
+    volumes:
+      - type: bind
+        source: ./vtigercrm
+        target: /var/www/html/
+    ports:
+      - 80:80
+    networks:
+      vt-net:
+        ipv4_address: 20.0.0.20
+
+  mysql: 
+    container_name: mysql1
+    image: aksel67/mysql:v1.0
+    volumes:
+      - type: volume
+        source: db-data
+        target: /data
+        volume:
+          nocopy: true
+      - type: bind
+        source: ./mysql
+        target: /var/lib/mysql/
+    environment:
+      MYSQL_ROOT_PASSWORD: WQA12ZSX
+      MYSQL_DATABASE: vtiger
+      MYSQL_USER: vtigeradm
+      MYSQL_PASSWORD: WQA12ZSX
+    depends_on:
+      - apache
+    ports:
+      - 3306:3306
+    networks:
+      vt-net:
+        ipv4_address: 20.0.0.21
+  pma:
+    container_name: pma1
+    image: aksel67/pma:v1.0
+    ports:
+      - 8080:80
+    restart: always
+    environment:
+      PMA_HOST: mysql
+    depends_on:
+      - mysql
+    networks:
+      vt-net:
+        ipv4_address: 20.0.0.22
+    
+networks:
+  vt-net:
+    ipam:
+      config:
+        - subnet: 20.0.0.0/24
+volumes:
+  db-data:
+  vt-data:
