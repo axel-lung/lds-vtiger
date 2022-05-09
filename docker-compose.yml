@@ -4,6 +4,11 @@ services:
     container_name: apache1
     image: aksel67/apache:v1.1
     volumes:
+      - type: volume
+        source: vt-data
+        target: /data
+        volume:
+          nocopy: true
       - type: bind
         source: ./vtigercrm
         target: /var/www/html/
@@ -15,7 +20,8 @@ services:
 
   mysql: 
     container_name: mysql1
-    image: aksel67/mysql:v1.0
+    image: aksel67/mysql:v1.3
+    command: --lower_case_table_names=0
     volumes:
       - type: volume
         source: db-data
