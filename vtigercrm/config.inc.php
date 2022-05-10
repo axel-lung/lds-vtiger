@@ -156,7 +156,7 @@ $display_empty_home_blocks = false;
 $disable_stats_tracking = false;
 
 // Generating Unique Application Key
-$application_unique_key = 'd4128ac33ec494f7e16e1e070d55ae18';
+$application_unique_key = 'd8895e7405ab7004f5d430ef467d9f99';
 
 // trim descriptions, titles in listviews to this value
 $listview_max_textlength = 40;

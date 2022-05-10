@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2022-05-07 17:01:37
+<?php /* Smarty version Smarty-3.1.7, created on 2022-05-09 15:50:15
          compiled from "/var/www/html/includes/runtime/../../layouts/v7/modules/Users/UserSetup.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:21144469056276a5f1d1f9f9-03878743%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:59685222362793837695c34-62882095%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '21144469056276a5f1d1f9f9-03878743',
+  'nocache_hash' => '59685222362793837695c34-62882095',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_6276a5f20731f',
+  'unifunc' => 'content_627938376b3b2',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_6276a5f20731f')) {function content_6276a5f20731f($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_627938376b3b2')) {function content_627938376b3b2($_smarty_tpl) {?>
 
 <!DOCTYPE html><html><head><title>Vtiger</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link REL="SHORTCUT ICON" HREF="layouts/v7/skins/images/favicon.ico"><link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css" type="text/css" media="screen" /><link rel="stylesheet" href="resources/styles.css" type="text/css" media="screen" /><link rel="stylesheet" href="libraries/jquery/select2/select2.css" /><link rel="stylesheet" href="libraries/jquery/posabsolute-jQuery-Validation-Engine/css/validationEngine.jquery.css" /><script type="text/javascript" src="libraries/jquery/jquery.min.js"></script><script type="text/javascript" src="libraries/bootstrap/js/bootstrap-tooltip.js"></script><script type="text/javascript" src="libraries/jquery/select2/select2.min.js"></script><script type="text/javascript" src="libraries/jquery/posabsolute-jQuery-Validation-Engine/js/jquery.validationEngine.js" ></script><script type="text/javascript" src="libraries/jquery/posabsolute-jQuery-Validation-Engine/js/jquery.validationEngine-en.js" ></script><script type="text/javascript">
 				jQuery(function(){

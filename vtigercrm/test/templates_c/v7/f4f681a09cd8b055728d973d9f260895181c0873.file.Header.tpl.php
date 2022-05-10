@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2022-05-07 11:14:53
+<?php /* Smarty version Smarty-3.1.7, created on 2022-05-09 16:05:14
          compiled from "/var/www/html/includes/runtime/../../layouts/v7/modules/Install/Header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17916043866276469d607632-72722822%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:52997879162792daa8b3629-05896165%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17916043866276469d607632-72722822',
+  'nocache_hash' => '52997879162792daa8b3629-05896165',
   'function' => 
   array (
   ),
@@ -32,9 +32,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_6276469dd0452',
+  'unifunc' => 'content_62792daa8bcea',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_6276469dd0452')) {function content_6276469dd0452($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_62792daa8bcea')) {function content_62792daa8bcea($_smarty_tpl) {?>
 
 <!DOCTYPE html><html><head><title><?php echo vtranslate($_smarty_tpl->tpl_vars['PAGETITLE']->value,$_smarty_tpl->tpl_vars['MODULE_NAME']->value);?>
 </title><link rel="SHORTCUT ICON" href="layouts/v7/skins/images/favicon.ico"><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link type='text/css' rel='stylesheet' href='layouts/v7/lib/todc/css/bootstrap.min.css'/><link type='text/css' rel='stylesheet' href='layouts/v7/lib/todc/css/todc-bootstrap.min.css'/><link type='text/css' rel='stylesheet' href='layouts/v7/lib/font-awesome/css/font-awesome.min.css'/><link type='text/css' rel='stylesheet' href='layouts/v7/lib/jquery/select2/select2.css'/><link type='text/css' rel='stylesheet' href='libraries/bootstrap/js/eternicode-bootstrap-datepicker/css/datepicker3.css'/><link type='text/css' rel='stylesheet' href='layouts/v7/lib/jquery/jquery-ui-1.12.0.custom/jquery-ui.css'/><link type='text/css' rel='stylesheet' href='layouts/v7/lib/vt-icons/style.css'/><?php if (strpos($_smarty_tpl->tpl_vars['V7_THEME_PATH']->value,".less")!==false){?><link type="text/css" rel="stylesheet/less" href="<?php echo vresource_url($_smarty_tpl->tpl_vars['V7_THEME_PATH']->value);?>
