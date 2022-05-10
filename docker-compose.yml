@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   apache:
-    container_name: apache1
+    container_name: apache3
     image: aksel67/apache:v1.1
     volumes:
       - type: volume
@@ -19,7 +19,7 @@ services:
         ipv4_address: 20.0.0.20
 
   mysql: 
-    container_name: mysql1
+    container_name: mysql3
     image: aksel67/mysql:v1.3
     command: --lower_case_table_names=0
     volumes:
@@ -44,7 +44,7 @@ services:
       vt-net:
         ipv4_address: 20.0.0.21
   pma:
-    container_name: pma1
+    container_name: pma3
     image: aksel67/pma:v1.0
     ports:
       - 8080:80
