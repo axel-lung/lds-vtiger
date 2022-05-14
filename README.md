@@ -11,3 +11,8 @@
 	sudo chown www-data:www-data ./vtigercrm -R
 	
 	Accès en web localhost : http://localhost
+	
+	Dans ./config.inc.php, modifier la variable $site_url=[SERVER_IP]
+	
+	Accès en web : http://SERVER_IP
+	
